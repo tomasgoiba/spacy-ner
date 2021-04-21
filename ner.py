@@ -1,17 +1,5 @@
 """
-Data Scientist (Adarga) - Tomás Gómez
-Python Coding Exercise - NER
-
-NER model to detect people's names using spaCy. 
-
-Usage example:
-
-    python3 ner.py --data conll --save . --file text.txt --output text_ner.txt
-
-Time spent on this exercise: 3h
-- 1h reviewing spaCy documentation;
-- 1.5h coding solution;
-- 0.5h debugging.
+NER model for detecting people's names using spaCy. 
 """
 
 from preprocess import *

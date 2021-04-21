@@ -34,7 +34,7 @@ The following libraries are required to run `ner.py`:
 #### Example
 
 - Train a new model and save it:
-  <p align="center"><code>python ner.py --data conll.txt --save</code></p>
+  <p align="center"><code>python ner.py --data conll.txt --save .</code></p>
 
 - Run inference using a pre-trained model:
   <p align="center"><code>python ner.py --model ./model --file harry.txt --output harry_output.txt</code></p>
